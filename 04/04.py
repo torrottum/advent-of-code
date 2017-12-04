@@ -1,18 +1,6 @@
 #!/usr/bin/env python3
 import os
 
-    # s = 0
-    # for line in f.readlines():
-    #     line = line.rstrip()
-    #     if line == '':
-    #         continue
-
-    #     words = line.split(' ')
-    #     if len(words) == len(set(words)):
-    #         s += 1
-
-    # print('Part one: {}'.format(s))
-
 def check_phrase(words):
     l = len(words)
     x = l * -1
@@ -40,4 +28,3 @@ with open(os.path.dirname(os.path.realpath(__file__)) + '/input.txt') as f:
             
     print('Part 1: {}'.format(p1))
     print('Part 2: {}'.format(p2))
-    # print('Part one: {}'.format(s))
